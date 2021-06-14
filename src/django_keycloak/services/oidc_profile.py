@@ -227,7 +227,7 @@ def _update_or_create(client, token_response, initiate_time):
             'id_token_signing_alg_values_supported'],
         issuer=issuer,
         options=options,
-        **token_response
+        access_token=token_response['access_token']
     )
 
     oidc_profile = update_or_create_user_and_oidc_profile(
