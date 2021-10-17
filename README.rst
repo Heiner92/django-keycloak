@@ -61,6 +61,7 @@ Create new wheel for installation from file
 
 .. code:: bash
 
+    $ source ../aio/venv-aio-app/bin/activate
     $ git checkout master
     $ git pull
     $ make deploy
@@ -71,6 +72,7 @@ Bump to new version and create wheel
 
 .. code:: bash
 
+    $ source ../aio/venv-aio-app/bin/activate
     $ git checkout master
     $ git pull
     $ bumpversion --no-tag patch
