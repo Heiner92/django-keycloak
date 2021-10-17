@@ -56,24 +56,17 @@ Go in the browser to http://localhost:8050 and view the documentation which get
 refreshed and updated on every update in the documentation source.
 
 --------------
-Create new wheel for installation from file
+Create release
 --------------
 
 .. code:: bash
+
     $ git checkout master
     $ git pull
+    $ bumpversion minor
     $ make deploy
-
---------------
-Bump to new version
---------------
-
-.. code:: bash
-    $ git checkout master
-    $ git pull
     $ bumpversion --no-tag patch
-    $ make deploy
-
+    $ git push origin master --tags
 
 Release Notes
 =============
