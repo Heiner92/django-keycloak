@@ -77,11 +77,6 @@ Release Notes
 * Fix token validation
 * Add customizeability for user creation (username, mapper beweteen django usermodel - first name & last name - and keycloak) 
 
-**v0.2.0-dev**
-**v0.2.0-dev**
-**v0.1.2-dev**
-**v0.1.2-dev**
-
 **v0.1.2-dev**
 
 * Add support for Keycloak 4.* using setting: `KEYCLOAK_VERSION = 4`
