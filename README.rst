@@ -56,22 +56,27 @@ Go in the browser to http://localhost:8050 and view the documentation which get
 refreshed and updated on every update in the documentation source.
 
 --------------
-Create release
+Create new wheel for installation from file
 --------------
-
 .. code:: bash
-
     $ git checkout master
     $ git pull
-    $ bumpversion minor
     $ make deploy
+
+--------------
+Bump to new version and create wheel
+--------------
+.. code:: bash
+    $ git checkout master
+    $ git pull
     $ bumpversion --no-tag patch
-    $ git push origin master --tags
+    $ make deploy
 
 Release Notes
 =============
 
 **unreleased**
+
 **v0.3.0-dev**
 
 * Fix token validation
