@@ -60,6 +60,7 @@ Create new wheel for installation from file
 --------------
 
 .. code:: bash
+
     $ git checkout master
     $ git pull
     $ make deploy
@@ -69,6 +70,7 @@ Bump to new version and create wheel
 --------------
 
 .. code:: bash
+
     $ git checkout master
     $ git pull
     $ bumpversion --no-tag patch
