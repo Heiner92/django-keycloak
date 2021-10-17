@@ -63,8 +63,8 @@ Create release
 
     $ git checkout master
     $ git pull
-    $ bumpversion release
-    $ make deploy-pypi
+    $ bumpversion minor
+    $ make deploy
     $ bumpversion --no-tag patch
     $ git push origin master --tags
 
@@ -73,6 +73,10 @@ Release Notes
 
 **unreleased**
 **v0.3.0-dev**
+
+* Fix token validation
+* Add customizeability for user creation (username, mapper beweteen django usermodel - first name & last name - and keycloak) 
+
 **v0.2.0-dev**
 **v0.2.0-dev**
 **v0.1.2-dev**
