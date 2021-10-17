@@ -58,6 +58,7 @@ refreshed and updated on every update in the documentation source.
 --------------
 Create new wheel for installation from file
 --------------
+
 .. code:: bash
     $ git checkout master
     $ git pull
@@ -66,6 +67,7 @@ Create new wheel for installation from file
 --------------
 Bump to new version and create wheel
 --------------
+
 .. code:: bash
     $ git checkout master
     $ git pull
